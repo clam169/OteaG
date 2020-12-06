@@ -1,11 +1,38 @@
 header {
     background-color: #80AA89;
+    font-family: "Abel";
+    font-size: 2.5em;
 }
 
 nav {
     background-color: #BEDBBB;
 }
 
+.navUL{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.75em;
+}
 footer {
     background-color: #92817A;
+}
+.footUL{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+#teapeople{
+    grid-column: 2;
+}
+img {
+    border-radius: 25%;
+    border: 3px solid green;
+    padding: 5px;
+
 }
