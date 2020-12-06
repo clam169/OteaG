@@ -2,12 +2,37 @@ header {
     background-color: #80AA89;
     font-family: "Abel";
     font-size: 2.5em;
-}
+    padding: 1em;
 
+}
+.homeMain {
+  position: relative;
+}
+.homeMain img{
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 0;
+}
+.mainButton{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  background-color: #E9ECEB;
+  color: #E9ECEB;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: black;
+  cursor: pointer;
+  border-radius: 30%;
+  font-family: "Alegreya Sans"
+}
+.logoBW{
+  height: 100px;
+}
 nav {
-    background-color: #BEDBBB;
+    background-color: #BEDBBB; 
 }
-
 .navUL{
     list-style-type: none;
     display: flex;
@@ -32,7 +57,25 @@ footer {
 }
 img {
     border-radius: 25%;
-    border: 3px solid green;
+    border: 3px solid #80AA89;
     padding: 5px;
-
+}
+main{
+  font-family: "Alegreya Sans"
+}
+.our mission {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.mission Img{
+  grid-column: 2;
+}
+.missionDescr {
+  grid-column: 1;
+  background-color: blue;
+}
+.icon{
+  height: 50px;
+  width: auto;
+  background: #80AA89;
 }
