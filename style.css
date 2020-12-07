@@ -1,4 +1,3 @@
-
 .homeMain {
   position: relative;
 }
@@ -33,25 +32,27 @@
   cursor: pointer;
   border-radius: 10px;
   font-family: "Alegreya Sans";
-  font-size: 20px;
   margin-bottom: 50%;
 }
+
+
 header {
     background-color: #80AA89;
-
     display: grid;
     grid-template-columns: 2fr 5fr;
 }
 .logo{
-    font-family: "Abel";
-    font-size: 2.5em;
-    padding-left: 1em;
+  display: flex;
+  align-items: center;
+  font-family: "Abel";
+  font-size: 2.5em;
+  padding-left: 1em;
 }
 #title{
   float: top;
 }
 .logoBW{
-  height: 100px;
+  height: auto;
 }
 nav {
     padding-top: 0px;
@@ -83,9 +84,44 @@ nav {
     text-decoration-color: #80AA89
 
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: "Alegreya Sans"
+}
+
+.logoBW{
+    height: 80px;
+    width: 60px;
+  }
+
 .middle{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    display: flex;
+    flex-direction: column;
+}
+
+.Canada{
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  align-items: center;
+  margin: 2em;
+}
+
+.VanAddress{
+  display: flex;
+  flex-direction: column;
+}
+
+.AsiaMap{
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  margin: 2em;
+}
+
+.locationIcon {
+    height: 60px;
 }
 #teapeople{
     grid-column: 2;
@@ -93,15 +129,13 @@ nav {
 .locationlist{
   grid-column: 1;
 }
-
-main{
+body {
   font-family: "Alegreya Sans";
 }
 
 .ourPromise {
   display: flex;
   justify-content: center;
-  
   border:#80AA89;
   border-style: solid;
 }
@@ -125,6 +159,33 @@ main{
 .missionDescr {
   display: inline;
 }
+
+.homeTop {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+}
+.homeBot {
+  text-align: center;
+  justify-content: center;
+}
+.homeTop img{
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+#teapeople {
+  width: 300px;
+  height: auto;
+}
+.text{
+  font-size: medium;
+}
+.homeBot img{
+  height: 300px;
+  width: auto;
+}
 footer {
     background-color: #92817A;
 }
@@ -137,13 +198,57 @@ footer {
   height: 50px;
   width: auto;
   background: #E9ECEB;
-  margin: 0px 20px;
+  margin: 20px 20px;
   border-radius: 10%;
   padding: 5px;
 }
 #disclaimer{
   text-align: center;
+
 }
 
+.wrapper-menu{
+  display: flex;
+  flex-direction: column;
+}
 
+.wrapper-menupage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.icetea{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hottea{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 32px;
+  text-align: center;
+}
+
+p{
+  font-size: 16px;
+}
+
+button{
+  color: white;
+  background-color:  rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Alegreya Sans";
+}
