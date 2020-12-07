@@ -71,6 +71,11 @@ nav {
     font-size: 2em;
     padding-top: 25x;
 }
+
+.navUL a{
+  color:#E9ECEB;
+  text-decoration-color: #80AA89
+}
 .navUL a:hover {
   color: #E9ECEB;
   border-top: 5px solid #BEDBBB;
@@ -82,8 +87,8 @@ nav {
 .navUL a:visited {
     color: #E9ECEB;
     text-decoration-color: #80AA89
-
 }
+
 .wrapper{
     display: flex;
     flex-direction: column;
